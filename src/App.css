@@ -1,0 +1,7 @@
+
+.container{
+    background-color: var(--theme--colour);
+    width: 100px;
+    height: 100px;
+    color: var(--text--colour);
+}

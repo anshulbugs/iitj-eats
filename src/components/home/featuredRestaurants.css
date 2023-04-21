@@ -1,0 +1,140 @@
+.featuredrestaurantscontainer{
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.featuredrestaurantscontainer::-webkit-scrollbar{
+    display: none;
+}
+
+
+.featuredrestaurantbox{
+    position: relative;
+    text-decoration: none;
+    flex-shrink: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 225px;
+    width: min(80vw,330px);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.252);
+}
+
+.featuredrestaurantimgbox{
+    height: 130px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+.featuredrestaurantimg{
+    height: 130px;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.featuredrestaurantbottom{
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
+.featuredrestaurantnamebox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.featuredrestauranttickbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme--color1);
+    height: 15px;
+    width: 15px;
+    color: var(--theme--color2);
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.featuredrestaurantname{
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--theme--color3);
+}
+
+.featuredrestauranttimecontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 2px;
+}
+
+.featuredrestaurantwatch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15px;
+    width: 15px;
+    color: var(--theme--color1);
+}
+
+.featuredrestaurantstimeshown{
+    font-size: 14px;
+    padding-left: 5px;
+    color: var(--theme--color5);
+}
+
+.featuredrestaurantfeaturebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--theme--color5);
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: rgb(236, 236, 236);
+    height: 24px;
+    width: 80px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.featuredrestaurantfeatures{
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.featuredrestaurantratings{
+    position: absolute;
+    background-color: var(--theme--color2);
+    height: 30px;
+    border-radius: 20px;
+    width: 80px;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.featuredrestaurantratingsrate{
+    font-size: 14px;
+    color: var(--theme--color3);
+    padding-right: 3px;
+}
+
+.featuredrestaurantpeople{
+    font-size: 11px;
+    color: var(--theme--color5);
+}
+
+.featuredrestaurantspanpan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

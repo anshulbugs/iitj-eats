@@ -1,0 +1,118 @@
+.homemaincontainer{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.homeheadingandsearch{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.homeheadingandsearch h2{
+    font-size: 32px;
+    padding-right: 30px;
+}
+
+
+.group {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 80vw;
+   }
+   
+   .input {
+    width: 100%;
+    height: 45px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: var(--theme--color3);
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: var(--theme--color5);
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: var(--theme--color1);
+    background-color: var(--theme--color2);
+    box-shadow: 0 0 0 4px #4286f42a;
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+      
+
+.homecatergoryselectbox{
+    
+}
+
+.homepopularitems{
+    margin-top: 10px;
+}
+
+.homefeaturedrestaurantsbox{
+    margin-top: 10px;
+}
+.homepopularitemsheading{
+    font-size: 24px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.homefeaturedrestaurantsheading{
+    font-size: 24px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.homefeaturedrestaurantscontainer{
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: 0;
+}
+
+
+.homefooter{
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+    background-color: rgba(128, 128, 128, 0.178);
+}
+.homefooter h1{
+    color: var(--theme--color5);
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.homefooter span{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 18px;
+    color: var(--theme--color5);
+}
+.homefootertext{
+    padding-right: 5px;
+    font-size: 18px;
+}
+.homefootertext2{
+    padding-left: 5px;
+    font-size: 18px;
+}

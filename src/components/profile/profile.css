@@ -1,0 +1,154 @@
+.profile{
+    position: relative;
+    min-height: 100vh;
+    width: 100vw;
+}
+.profile::before{
+    z-index: 0;
+    content: '';
+    position: absolute;
+    height: 240px;
+    width: 170px;
+    background-color: var(--theme--color1);
+    right: 0px;
+    top: -40px;
+    border-radius: 55% 0px 85% 0px;
+    box-shadow: -3px 20px 50px rgb(255, 237, 196);
+}
+.profile::after{
+    z-index: 0;
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 180px;
+    background-color: var(--theme--color4);
+    left: -30px;
+    top: -160px;
+    border-radius: 0px 75% 0px 95%;
+    box-shadow: -10px 10px 7px rgba(255, 254, 231, 0.74);
+}
+.profiledesign{
+    position: relative;
+    z-index: -1;
+    height: 0px;
+    width: 0px;
+}
+.profiledesign::before{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 32vw;
+    top: -36px;
+    background-color: var(--theme--color6);
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.61);
+}
+
+.profilecontainer{
+    display: flex;
+    width: 100vw;
+    height: 100vh - 200px;
+    padding-top: 150px;
+    flex-direction: column;
+    align-items: center;
+}
+.profilelogo{
+    z-index: 2;
+    height: 120px;
+    width: 120px;
+    background-color: var(--theme--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 10px 0px 10px rgba(128, 128, 128, 0.264);
+}
+.profileimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.profileimgname{
+    margin-top: 2px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+.profilestart{
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 40px;
+}
+.profilename{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 80vw;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid var(--theme--color1);
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.3);
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.profilereadonly{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    width: 80vw;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    border: 2px solid var(--theme--color1);
+    box-shadow: 0px 2px 10px rgba(128, 128, 128, 0.3);
+    padding-left: 15px;
+    font-size: 20px;
+}
+.profilelabels{
+    position: relative;
+    margin-left: 10px;
+    color: var(--theme--color5);
+    font-size: 16px;
+}
+
+
+.profilesavebutton{
+    height: 48px;
+    width: 150px;
+    border-radius: 15px;
+    background-color: var(--theme--color4);
+    color: var(--theme--color2);
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.profilesavebutton:hover{
+    transform: scale(1.1);
+}
+
+
+.profilebackbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: var(--theme--color3);
+    z-index: 3;
+    background-color: var(--theme--color2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.527);
+}
+.profilebackbuttonimg{
+    height: 20px;
+    width: 20px;
+}

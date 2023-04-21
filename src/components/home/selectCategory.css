@@ -1,0 +1,60 @@
+.selectcategorybutton{
+    height: 113px;
+    width: 65px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: var(--theme--color2);
+    border-radius: 50px;
+    margin-right: 12px;
+    margin-left: 12px;
+    color: var(--theme--color3);
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.289);
+    transition: all 0.3s ease;
+    
+}
+.selectcategorybutton:active, .selectcategorybutton:hover{
+    background-color: var(--theme--color1);
+    box-shadow: 0px 10px 15px rgb(255, 241, 207);
+    color: var(--theme--color2);
+    transform: scale(1.1);
+}
+
+.selectcategorybuttonbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.selectcategorybuttonlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background-color: white;
+}
+.selectcategorybuttonlogoimg{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.selectcategoryname{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.selectcategorycontainer{
+    padding-top: 15px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.selectcategorycontainer::-webkit-scrollbar{
+    display: none;
+}

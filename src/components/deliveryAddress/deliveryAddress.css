@@ -1,0 +1,123 @@
+.DA{
+    height: 100vh;
+    width: 100vw;
+}
+
+.dacontainer{
+    margin-top: 30px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.daheading{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.dasavedaddresses{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 13px;
+    padding-left: 20px;
+    background-color: rgba(128, 128, 128, 0.122);
+    color: var(--theme--color5);
+    letter-spacing: 1px;
+}
+
+.daaddressbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.daaddressbox::after{
+    position: absolute;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.308);
+    content: "";
+    bottom: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+.daaddressboxleft{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.daaddressboxright{
+    flex-basis: 70%;
+    padding-right: 10px;
+}
+
+.daaddresstype{
+    padding-top: 2px;
+    padding-bottom: 10px;
+    letter-spacing: 0.05em;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.daaddressemainaddress{
+    font-size: 15px;
+}
+
+.daaddresschangebuttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dabutton{
+    text-decoration: none;
+    color: var(--theme--color1);
+    margin-right: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    border: none;
+    background: transparent;
+}
+
+.dabutton:focus, .dabutton:hover{
+    transform: scale(1.1);
+}
+
+.daaddresscontainer{
+    margin-bottom: 20px;
+}
+
+.daaddnewaddresscontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daaddnewaddressbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid var(--theme--color1);
+    width: 80vw;
+    height: 40px;
+    color: var(--theme--color1);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
